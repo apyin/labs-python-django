@@ -1,0 +1,45 @@
+body {
+    background: #1abc9c; 
+    color: #333;
+}
+/* 1. Установите для заголовка первого уровня шрифт с засечками */
+h1 {
+       font-family: Georgia, serif;
+}
+/* Шрифт для остальных элементов */
+h2, h3, h4 , ul, ol, p, table {
+                                       font-family: Tahoma, sans-serif; 
+}
+img {
+      /* 2. сделайте картинку высотой 30px */
+	height: 30px;
+	width: auto;
+}
+h4 {
+   /* 3. Измените размер шрифта для подзаголовков
+   четвертого уровня */
+   font-size: 12px;
+   /* было font-size: 14px;  */
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+TD, TH {
+    border: 2px solid black; /* Параметры рамки */
+ }
+
+p, h4 {
+    font-size: 20px; 
+    margin-bottom: 0;
+}
+ul, ol {
+    margin: 0;
+}
+table {
+     /* 4. Сделайте ширину таблицы на 100% экрана */
+	width: 100%;
+}
+table tr td {
+    padding: 5px;
+}
