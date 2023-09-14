@@ -1,0 +1,37 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+h1 {
+    position: absolute;
+    left: 60px;
+}
+input {
+	border: 2px solid black;
+	border-radius: 4px;
+    left: 60px;
+    position: absolute;
+}
+input[type="text"] {
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 20px;
+    top: 90px;
+	width: 300px;
+}
+input[type="submit"] {
+    height: 30px;
+    top: 360px;
+    width: 100px;
+}
+textarea {
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 200px;
+	left: 60px;
+	margin-right: 90%;
+	position: absolute;
+	top: 130px;
+	width: 400px;
+}
