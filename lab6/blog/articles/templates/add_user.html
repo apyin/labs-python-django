@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ STATIC_URL }}/static/user.css">
+        <title>Django Public Blog — зарегистрироваться</title>
+    </head>
+    <body class="reg"> <!-- Класс указан для того, чтобы задавать стили,
+    специфичные для этой страницы-->
+        <div class="content">
+            <h1>Зарегистрироваться</h1>
+            <form method="POST">{% csrf_token %}
+                <input type="text" name="login" placeholder="Введите логин" value="">
+                <input type="email" pattern="^(.)+@[A-Za-z0-9]([A-Za-z0-9\.-]*[A-Za-z0-9])?\.[A-Za-z]{1,13}$"
+                       name="email" placeholder="Введите адрес электронной почты">
+                <input type="password" name="password" placeholder="Введите пароль" maxlength="30">
+                <input type="submit" value="Зарегистрироваться">
+            </form>
+            {{ form.errors }}
+        </div>
+    </body>
+</html>
