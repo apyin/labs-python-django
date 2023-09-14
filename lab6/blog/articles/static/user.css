@@ -1,0 +1,50 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+h1 {
+    font-size: 23px;
+    position: absolute;
+    left: 60px;
+}
+input {
+	border: 2px solid black;
+	border-radius: 4px;
+    left: 60px;
+    position: absolute;
+}
+input[type="text"] {
+	border: 2px solid black;
+	border-radius: 4px;
+	height: 20px;
+	top: 70px;
+	width: 300px;
+}
+input[type="email"] {
+    height: 20px;
+    top: 110px;
+    width: 300px;
+}
+input[type="password"] {
+    height: 20px;
+}
+.reg input[type="password"] {
+        top: 150px;
+}
+.auth input[type="password"] {
+          top: 110px;
+      }
+input[type="submit"] {
+    background: #a1d4ff;
+    font-weight: bold;
+    height: 30px;
+}
+.reg input[type="submit"] {
+        top: 200px;
+        width: 200px;
+}
+.auth input[type="submit"] {
+          top: 150px;
+          width: 150px;
+      }
